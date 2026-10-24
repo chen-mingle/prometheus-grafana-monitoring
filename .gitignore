@@ -1,0 +1,11 @@
+# 日志
+*.log
+alert.log
+
+# docker、缓存
+.DS_Store
+__pycache__/
+*.pyc
+
+# grafana持久卷数据（这个我们是volume挂载，不在当前目录，写上去兜底）
+grafana-data/
